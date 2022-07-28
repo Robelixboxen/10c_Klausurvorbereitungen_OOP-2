@@ -5,17 +5,15 @@ public class Test {
     // Felder (fields) | Attribute, Eigenschaften
     // private --> Kapselung / encapsulation/ data hiding
 
-    private String name;
-    private int age;
+    private String name;    // privat = nur in Test sichtbar
+    private int age;        // privat = Zugriffsmodifizierer
+    // die beiden oberen Zeilen ist eigentlich das einzige was ich schreiben muss
+
 
     public Test(String name, int age) {
         this.name = name;
         this.age = age;
-    }
-	// Sichtbarkeit | access (access modifiers)
-	// public --> alle dürfen sehen/schreiben (+)
-	// private --> NUR die eigene Klasse / Objekt (-)
-	// protected --> NUR die eigene Klasse / Objekt + Subklassen (#)
+    }  // rechte Maus, Source Action, Castom Construktor  
 
     public String getName() {
         return name;
@@ -32,10 +30,7 @@ public class Test {
     public void setAge(int age) {
         this.age = age;
     }
+    
 
- 
-
-
-
-
+	
 }

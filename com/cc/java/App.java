@@ -6,12 +6,12 @@ public class App {
 
 
      Test test = new Test("Grizabella", 29);
+        // costumkonstuckters wird erzeugt
+
 
      System.out.println(test.getName());
 
-
-
-
+     System.out.println(test.getAge());  // von mir geschrieben
 
     
     }
